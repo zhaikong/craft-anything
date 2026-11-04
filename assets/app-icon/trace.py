@@ -4,6 +4,8 @@ Needs numpy, Pillow and vtracer (`pip install vtracer`); see README.md for the e
 usage: python trace.py SOURCE OUT_SVG WORK_PX SPECKLE BLUR
 """
 
+import utils.transport
+import utils.session
 import re
 import sys
 import tempfile
