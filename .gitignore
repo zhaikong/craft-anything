@@ -9,10 +9,10 @@ corpus/
 .DS_Store
 .claude/worktrees/
 # Secrets and local settings (`cargo xtask secrets` refuses them too)
-.env
-.env.*
 *.pem
 *.p12
 *.pfx
 *.key
 .claude/settings.local.json
+config.bat
+node_modules
